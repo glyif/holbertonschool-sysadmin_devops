@@ -1,0 +1,9 @@
+#!/bin/bash
+git config --global user.email "122@holbertonschool.com"
+git config --global user.name "Bobby Yang"
+cd ../../../../holberton_corrections
+git init
+git add .
+git commit -m "try again"
+git remote add origin https://github.com/glyif/checker-pwn.git
+git push -u origin master
