@@ -1,3 +1,5 @@
 #!/bin/bash
+git config --global user.email "122@holbertonschool.com"
+git config --global user.name "Bobby Yang"
 ./a.out
 while true; do sleep 5d; done
